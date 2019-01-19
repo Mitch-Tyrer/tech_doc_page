@@ -1,5 +1,29 @@
 body{
-    padding-top:90px
+    padding-top:90px;
+    background: #999;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+p{
+    padding: 5px;
+}
+
+pre code {
+    background-color: #cccccc;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    overflow: auto;
+  }
+
+.container {
+    background-color: #eee;
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .navbar.fixed-left{
